@@ -62,7 +62,7 @@ if(isset($_POST['input']) && isset($_POST['output']) && isset($_POST['mode']) ){
         D2A::CFG_INDENTATION               => 4,
         D2A::CFG_FILENAME                  => '%entity%.%extension%',
         D2A::CFG_ANNOTATION_PREFIX         => 'ORM\\',
-        D2A::CFG_BUNDLE_NAMESPACE          => 'MyBundle',
+        D2A::CFG_BUNDLE_NAMESPACE          => 'AppBundle',
         D2A::CFG_ENTITY_NAMESPACE          => 'Entity',
         D2A::CFG_REPOSITORY_NAMESPACE      => '',
         D2A::CFG_AUTOMATIC_REPOSITORY      => true,
@@ -81,7 +81,7 @@ if(isset($_POST['input']) && isset($_POST['output']) && isset($_POST['mode']) ){
     'doctrine2.zf2inputfilter' => array(
         D2Z::CFG_USE_LOGGED_STORAGE        => true,
         D2Z::CFG_INDENTATION               => 4,
-        D2Z::CFG_BUNDLE_NAMESPACE          => 'MyBundle',
+        D2Z::CFG_BUNDLE_NAMESPACE          => 'AppBundle',
         D2Z::CFG_ENTITY_NAMESPACE          => 'Entity',
         D2Z::CFG_AUTOMATIC_REPOSITORY      => true,
         D2Z::CFG_SKIP_GETTER_SETTER        => false,
